@@ -1,8 +1,8 @@
 import unittest
 from parameterized import parameterized
-from .covid_seating import getMaxAdditionalDinersCount
+from meta.covid_seating import getMaxAdditionalDinersCount
 
-class MyTestCase(unittest.TestCase):
+class CovidSeatingTestCase(unittest.TestCase):
     @parameterized.expand([
         ('10-1-2', (10, 1, 2, [2,6]), 3),
         ('3-1-2', (3, 1, 2, [0,2]), 0),
