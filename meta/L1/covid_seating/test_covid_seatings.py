@@ -1,5 +1,5 @@
 import unittest
-from nose_parameterized import parameterized
+from parameterized import parameterized
 from .covid_seating import getMaxAdditionalDinersCount
 
 class MyTestCase(unittest.TestCase):
